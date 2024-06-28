@@ -1,0 +1,39 @@
+.main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", serif;
+
+    .main__container {
+        display: flex;
+        flex-direction: column;
+        //align-items: start;
+        width: 648px;
+
+        .main__title {
+            text-align: center;
+        }
+
+        .main__second-title {
+            text-align: left;
+            margin: 0 0 10px;
+            color: #434343;
+        }
+
+        .main__text {
+            margin: 0 0 10px;
+            color: #131313;
+        }
+
+        .italico {
+            font-style: italic;
+        }
+
+        .bold {
+            font-weight: bold;
+            margin: 0;
+        }
+    }
+}

@@ -1,0 +1,60 @@
+.contacts {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 12px 0 40px;
+
+    .contacts__container {
+        display: flex;
+        width: 648px;
+
+        .contacts__box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 208px;
+            height: 44px;
+            background-color: #f5f6f7;
+            border-radius: 10px;
+            cursor: pointer;
+            margin: 0 5px 0 0;
+
+            &:last-child {
+                margin: 0;
+            }
+
+            .icon {
+                width: 25px;
+                height: 25px;
+            }
+        }
+
+        .facebook {
+            color: #0866ff;
+
+            &:hover {
+                background-color: #0866ff;
+                color: white;
+            }
+        }
+
+        .whatsapp {
+            color: #0dca54;
+
+            &:hover {
+                background-color: #0dca54;
+                color: white;
+            }
+        }
+
+        .share {
+            color: #4f5257;
+
+            &:hover {
+                background-color: #4f5257;
+                color: white;
+            }
+        }
+
+    }
+}

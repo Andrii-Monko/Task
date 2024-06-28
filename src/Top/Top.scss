@@ -1,0 +1,114 @@
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Open Sans", sans-serif;
+    margin: 0 90px;
+    height: 48px;
+
+    .top__nav {
+
+        .top__list {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            .top__link {
+                padding: 12px 11px;
+
+
+                .top__item {
+                    font-size: 15px;
+                    text-decoration: none;
+                    font-weight: bold;
+                    padding: 12px 0;
+                }
+
+                .first {
+                    color: #0669de;
+                    
+                    &:hover {
+                        border-bottom: 3px solid #0669de;
+                    }
+                }
+
+                .second {
+                    color: #c4170c;
+
+                    &:hover {
+                        border-bottom: 3px solid #c4170c;
+                    }
+                }
+
+                .third {
+                    color: #06aa48;
+
+                    &:hover {
+                        border-bottom: 3px solid #06aa48;
+                    }
+                }
+
+                .fourth {
+                    color: #ff6700;
+
+                    &:hover {
+                        border-bottom: 3px solid #ff6700;
+                    }
+                }
+
+                .fifth{
+                    color: #fb0334;
+
+                    &:hover {
+                        border-bottom: 3px solid #fb0334;
+                    }
+                }
+
+                .six {
+                    color: #1e4c9a;
+
+                    &:hover {
+                        border-bottom: 3px solid #1e4c9a;
+                    }
+                }
+
+                .seven {
+                    color: #c4170c;
+
+                    &:hover {
+                        border-bottom: 3px solid #c4170c;
+                    }
+                }
+            }
+        }
+    }
+
+    .top__bottom-box {
+        display: flex;
+        
+        .top__text {
+            margin: 0 48px 0 0;
+            text-decoration: none;
+            color: black;
+        }
+
+        .top__container {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: black;
+
+            .top__icon {
+                width: 20px;
+                height: 20px;
+                margin: 0 10px 0 0;
+            }
+
+            .top__text {
+                margin: 0;
+            }
+        }
+    }
+}
